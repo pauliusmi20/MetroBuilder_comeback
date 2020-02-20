@@ -1,6 +1,7 @@
 #!/usr/bin/python
 import Tkinter 
 from classes import * 
+import numpy as np
 
 window_height=1000
 window_width=1000
@@ -27,6 +28,9 @@ c2=Circle(200,200,400)
 draw_city(c1)
 
 
+
+
+np.interp(a, (a.min(), a.max()), (-1, +1))
 
 
 
